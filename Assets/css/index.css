@@ -1,0 +1,22 @@
+.selfnav{  
+    background-color: #017e91;
+    color: white;
+    padding: 0;
+    }
+
+.nav-link,.navbar-brand
+{
+    color: white;
+}
+.nav-link:hover,.navbar-brand:hover
+{
+    background: white;
+    color: #017e91;
+}
+
+body
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}

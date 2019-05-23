@@ -1,0 +1,77 @@
+div.self-container
+{
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(90deg, #017e91, #009fb7);
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.details-con
+{
+    height: 25vh;
+}
+.details-con .selfform
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;  
+    margin: 15px;
+    padding: 5px;
+    background: #FFF;
+    border-radius: 5px;
+    color: #009fb7;
+}
+.selfbtn
+{
+    background: #017e91;
+    margin-left: 5px;
+    color: white;
+}
+
+  input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
+
+
+.details-form
+{
+    background: #FFF;
+    height: 75vh;
+    width: 80%;
+    padding: 5px;   
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #009fb7;
+    overflow-y: scroll;
+}
+
+.details-form h1
+{
+    border-bottom: 5px solid #017e91;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matchlist
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+}

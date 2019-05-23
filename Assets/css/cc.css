@@ -1,0 +1,33 @@
+div.self-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #017e91, #009fb7);
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.cur-container 
+{
+    background-color: white;
+    color: #017e91;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.form-curreny
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
