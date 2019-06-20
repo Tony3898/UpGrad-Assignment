@@ -1,0 +1,50 @@
+div.self-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #017e91, #009fb7);
+    width: 100%;
+    height: auto;
+    color: white;
+    border: 1px solid #FFFFFF;
+    margin: 5px auto;
+}
+
+.selfform
+{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;;
+    border-radius: 5px;
+    color: #017e91;
+    width: 100%;
+}
+.selfbtn{
+    background: #009fb7;
+    color: #FFF;
+    margin: 5px;
+}
+
+.imagesalign
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.imagesalign img
+{
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+
+

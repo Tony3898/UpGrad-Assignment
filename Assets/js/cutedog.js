@@ -7,7 +7,8 @@ function next()
         success:function(response){
             var i = parseInt(Math.random()* 20)-1;
             console.log(i);
-            console.log(response.hits[i].largeImageURL); $("#images").attr("src",response.hits[i].largeImageURL)
+            console.log(response.hits[i].largeImageURL);
+            $("#images").attr("src",response.hits[i].largeImageURL)
         }
     });
 }

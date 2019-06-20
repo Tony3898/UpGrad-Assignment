@@ -6,7 +6,7 @@ function add()
         success:function(response){
             for(i=0;i<response.length;i++)
                 {
-                    console.log(response[i]);
+                    //console.log(response[i]);
                     if(response[i].name === inp)
                         {
                             $("#countryname").text(response[i].name);
